@@ -1,0 +1,71 @@
+* { margin: 0px; }
+
+body {
+    background: #f1f2f3;
+}
+
+#fondo_logo_universidad {
+    background: #e1e3e2;
+    height: 586px;
+    margin-top: 150px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 254px;
+    left: 254px;
+}
+
+#formulario_ingreso {
+    background: #f5f5f5;
+    position: absolute;
+    top: 69px;
+    right: 185px;
+    width: 375px;
+    height: 339px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px 2px #bfbfbf;
+    padding-top: 111px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: block;
+    margin-bottom: 32px;
+    width: 250px;
+    height: 32px;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: inset -1px -1px 2px 2px #bfbfbf;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+button {
+    background: #bfbfbf;
+    margin-top: 8px;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UNAHUR - Ingreso de usuario</title>
+    <link href="login.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="fondo_logo_universidad">
+      <img src="logo_unahur.png">
+      <form id="formulario_ingreso" action="mis_solicitudes.html" method="get">
+        <label for="usuario">USUARIO</label>
+        <input type="text" id="usuario" name="usuario" required />
+        <label for="clave">CONTRASEÑA</label>
+        <input type="password" id="clave" name="clave" required />
+        <button type="submit" id="envio" onclick="validar(event);" value="INGRESAR">INGRESAR</button>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
