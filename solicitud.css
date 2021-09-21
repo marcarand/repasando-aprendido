@@ -47,6 +47,7 @@ h1 {
 }
 
 #solicitud {
+    position: relative;
     margin-top: 187px;
     width: 100%;
     text-align: center;
@@ -57,6 +58,9 @@ h1 {
 }
 
 #solicitud_materia {
+    position: absolute;
+    left: 7%;
+    width: 40%;
     background: #f5f5f5;
     display: inline-block;
     border-radius: 16px;
@@ -65,9 +69,25 @@ h1 {
 }
 
 #solicitud_horario {
+    position: absolute;
+    right: 7%;
+    width: 35%;
     background: #f5f5f5;
     display: inline-block;
     border-radius: 16px;
     box-shadow: 2px 2px 4px 2px #bfbfbf;
     padding: 18px;
 }
+
+.titulo_solicitud {
+    padding: 12px;
+}
+
+.campo_solicitud {
+    background: #ffffff;
+    margin: 16px;    
+    border-radius: 12px;
+    box-shadow: inset -1px -1px 2px 2px #bfbfbf;
+    padding: 8px;
+}
+
